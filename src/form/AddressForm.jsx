@@ -99,7 +99,7 @@
 // }
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { updateField, updateCountry } from "./addressSlice";
+import { updateField, updateCountry } from "../redux/addressSlice";
 
 export default function AddressForm() {
   const { fields, buttons } = useSelector((state) => state.address);
